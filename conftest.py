@@ -50,4 +50,5 @@ def _driver(_config, request):
     driver.maximize_window()
     driver.get(_config.url)
     yield driver
+
     driver.close()
